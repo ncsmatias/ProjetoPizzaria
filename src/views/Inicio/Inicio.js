@@ -18,7 +18,7 @@ export default function Inicio() {
         <div>
           <h3>4</h3>
         </div>
-      </Carousel>,
+      </Carousel>
     </Content>
   );
 }

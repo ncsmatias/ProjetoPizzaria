@@ -1,0 +1,40 @@
+.footerBar{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(168, 81, 55);
+    height: 200px;
+    
+}
+.imagemFooter{
+
+    height: 100px;
+    width: 100px;
+    float: left;
+    align-self: flex-start;
+    border-radius: 500px;
+    
+}
+.textoPadrao{
+    font-family: Arial rgb(168, 49, 49);
+    font-weight: bold;
+    text-align: justify;
+}
+.textoTitulo{
+    font-family: Arial rgb(168, 49, 49);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.gomo{
+    margin-left: 10px;
+    padding-right: 10px;
+    display: block;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    width: 20%;
+    height: 100%;
+
+}

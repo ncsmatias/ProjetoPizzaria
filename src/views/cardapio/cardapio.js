@@ -24,35 +24,47 @@ export default function Inicio() {
         </div >
         <div>
           <img className="imagemPizza" src={require('./imagens/download.jpg')} />
-          <h1 className="tituloCardapio">Toscana</h1>
-          <p className="textoCardapio">
-            Toscana. Ingredientes: Molho de tomate, mussarela, calabresa ralada, bacon, tomate, azeitona e orégano. Mais uma tradição da Itália, a Toscana da Rede Leve Pizza com muita calabresa ralada e bacon vai levar um sabor diferenciado para sua mesa.
-          </p>
+          <div class="textoCarp">
 
-        </div>
-        <div>
-          <img className="imagemPizza" src={require('./imagens/maxresdefault.jpg')} />
-          <h1 className="tituloCardapio">Frango de Calafrango com catupiry</h1>
-          <p className="textoCardapio">
-            Deliciosa Pizza feita com fango, catupiry, queijo mussarela, molho de tomate, calabresa, cebola e orenago também não podem faltar
-          </p>
-
-        </div>
-        <div>
-          <img className="imagemPizza" src={require('./imagens/photo0jpg.jpg')} />
-          <h1 className="tituloCardapio">A moda da casa</h1>
-          <div className="textoCarp"><p className="textoCardapio">
-            Uma Pizza com os melhores sabores da casa. Tem mussarela, portuguesa, calabresa e manjeirição. Ótimo pedido quando estão indecisos
+            <h1 className="tituloCardapio">Toscana</h1>
+            <p className="textoCardapio">
+              Toscana. Ingredientes: Molho de tomate, mussarela, calabresa ralada, bacon, tomate, azeitona e orégano. Mais uma tradição da Itália, a Toscana da Rede Leve Pizza com muita calabresa ralada e bacon vai levar um sabor diferenciado para sua mesa.
           </p>
           </div>
 
         </div>
         <div>
-          <img className="imagemPizza" src={require('./imagens/pizza-hut-bacon-barbecue-768x307-3e434a40.jpg')} />
-          <h1 className="tituloCardapio">Bacon Americano</h1>
-          <p className="textoCardapio">
-            A Pizza Americana tem o presunto, champignon e requeijão salpicado com bacon crocante por cima. Impossível não querer! A clássica Pizza de Bacon tem a simplicidade do bacon crocante disposto sobre a muçarela ou requeijão.
+          <img className="imagemPizza" src={require('./imagens/maxresdefault.jpg')} />
+          <div class="textoCarp">
+
+            <h1 className="tituloCardapio">Frango de Calafrango com catupiry</h1>
+            <p className="textoCardapio">
+              Deliciosa Pizza feita com fango, catupiry, queijo mussarela, molho de tomate, calabresa, cebola e orenago também não podem faltar
           </p>
+          </div>
+
+        </div>
+        <div>
+          <img className="imagemPizza" src={require('./imagens/photo0jpg.jpg')} />
+          <div class="textoCarp">
+
+            <h1 className="tituloCardapio">A moda da casa</h1>
+            <div className="textoCarp"><p className="textoCardapio">
+              Uma Pizza com os melhores sabores da casa. Tem mussarela, portuguesa, calabresa e manjeirição. Ótimo pedido quando estão indecisos
+          </p>
+            </div>
+          </div>
+
+        </div>
+        <div>
+          <img className="imagemPizza" src={require('./imagens/pizza-hut-bacon-barbecue-768x307-3e434a40.jpg')} />
+          <div class="textoCarp">
+
+            <h1 className="tituloCardapio">Bacon Americano</h1>
+            <p className="textoCardapio">
+              A Pizza Americana tem o presunto, champignon e requeijão salpicado com bacon crocante por cima. Impossível não querer! A clássica Pizza de Bacon tem a simplicidade do bacon crocante disposto sobre a muçarela ou requeijão.
+          </p>
+          </div>
 
         </div>
       </Carousel >,

@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Inicio from './Inicio/Inicio';
+import Sobre from './Sobre/Sobre';
 
 export default function Principal() {
   return (
     <div>
-      <Inicio id="inicio" />
+      <Sobre id="inicio" />
     </div>
   );
 }

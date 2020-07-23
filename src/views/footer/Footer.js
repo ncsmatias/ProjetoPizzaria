@@ -4,7 +4,7 @@ import footer from '../footer/footer.css'
 export default class Footer extends Component {
     render() {
         return (
-            <div className="footerBar">
+            <div id="footerBar" className="footerBar">
                 
                 <div className="gomo">
                     <img className="imagemFooter" src={require('./pizzaLogo1.png')} />

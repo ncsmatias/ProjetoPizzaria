@@ -14,11 +14,11 @@ function App() {
 
             <div className="menu__right">
                 <ul className="menu__list">
-                    <li className="menu__list-item"><a className="menu__link menu__link--active" href="#">Home</a></li>
+                    <li className="menu__list-item"><a className="menu__link" href="#">Home</a></li>
                     <li className="menu__list-item"><a className="menu__link" href="#">Sobre</a></li>
                     <li className="menu__list-item"><a className="menu__link" href="#">Cardápio</a></li>
-                    <li className="menu__list-item"><a className="menu__link" href="#">Local</a></li>
-                    <li className="menu__list-item"><a className="menu__link" href="#">Contato</a></li>
+                    <li className="menu__list-item"><a className="menu__link" href="#footerBar">Local</a></li>
+                    <li className="menu__list-item"><a className="menu__link" href="#footerBar">Contato</a></li>
                 </ul>
             </div>
         </nav>

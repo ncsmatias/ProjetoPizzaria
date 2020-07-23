@@ -13,7 +13,7 @@ export default function Inicio() {
     return (
         <Content>
             <Carousel autoplay>
-                <div className="itens">
+                <div id="cardapio" className="itens">
                     <img src={Pizza1} alt="Pizza Canadense com Bacon" className="imgPizza" />
 
                 </div >

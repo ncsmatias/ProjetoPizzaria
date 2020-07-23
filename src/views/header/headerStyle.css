@@ -15,7 +15,7 @@
     padding-bottom: 5px;
     position: fixed;
     top: 0px;
-    z-index: 9;
+    z-index: 90;
 }
 
 .center {
@@ -81,13 +81,13 @@
     font-weight: 700;
 }
 
-.menu__link--active {
-    /*
+/*.menu__link--active {
+    
     color: rgb(255, 61, 61);
     border-bottom: 4px solid rgb(255, 61, 61);
     font-weight: 700;
-    */
-}
+    
+}*/
 
 .menu__logo {
     text-indent: -9999999px;

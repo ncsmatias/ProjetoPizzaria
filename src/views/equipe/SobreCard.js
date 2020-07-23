@@ -15,7 +15,7 @@ const SobreCard = props => {
             <div style={imgContainerStyle}>
                 <img style={imgStyle} src={src} />
             </div>
-            <div style={{height: '50%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+            <div style={paragraphContainerStyle}>
                 <p className='paragraph'>{nome}</p>
             </div>
         </Card>
@@ -32,8 +32,15 @@ const imgContainerStyle = {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    height: '50%',
+    height: '75%',
     width: '100%'
+}
+
+const paragraphContainerStyle = {
+    height: '25%',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center'
 }
 
 const imgStyle = {

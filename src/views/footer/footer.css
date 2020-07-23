@@ -1,12 +1,10 @@
 .footerBar{
-    margin-top: 10px;
     display: flex;
     flex-direction: row;
     align-content: center;
     bottom: 0px;
     width: 100%;
     background-color: rgb(138, 65, 23);
-    height: 200px;
     
 }
 .imagemFooter{

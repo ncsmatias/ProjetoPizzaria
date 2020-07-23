@@ -3,11 +3,52 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.itens{
 
-.imgPizza{
+    text-align: center;
+}
 
-    margin-top: 10px;
-    margin-left: 5px;
-    width: 400px;
-    height: 400px;
+.imagemPizza{
+
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    float: left;
+    align-self: flex-start;
+    border-radius: 20px;
+    
+}
+
+.tituloCardapio{
+
+    margin: 10px;
+    color: red;
+    display: inline-block;
+    height: 100%;
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 3px;
+    font-weight: bold;
+
+}
+
+.textoCarp{
+
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.textoCardapio{
+
+    margin: 10px;
+    font-family: Arial rgb(168, 49, 49);
+    font-weight: bold;
+    text-align: justify;
 }

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Content = styled.div`
 
-.titulo {
+.titulotrsite {
 
 text-align: center;
 

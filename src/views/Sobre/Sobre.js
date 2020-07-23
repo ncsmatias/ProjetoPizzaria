@@ -10,7 +10,7 @@ return (
 
 <Content>
     
-    <div class = "titulo">
+    <div class = "titulotrsite">
     
     <h1> Pizzaria da EJcomp </h1>
     
@@ -23,7 +23,7 @@ return (
 
     </div>
 
-    <div class = "titulo">
+    <div class = "titulotrsite">
 
      <h1> A nossa cozinha </h1>
 
@@ -53,7 +53,7 @@ return (
 
     <hr></hr>
 
-    <div class = "titulo">
+    <div class = "titulotrsite">
 
      <h1> Nossos funcionarios </h1>
 
@@ -85,7 +85,7 @@ return (
 
     <hr></hr>
 
-    <div class = "titulo">
+    <div class = "titulotrsite">
 
       <h1>A melhor parte</h1>
 

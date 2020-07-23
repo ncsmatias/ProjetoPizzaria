@@ -13,21 +13,31 @@ export default class Footer extends Component {
                     </p>
         </div>
         <div className="gomo">
+
           <p className="textoTitulo">
             Menu
+            </p>
+
+          <a href="#">
+            <p className="textoPadrao">
+              -Home
                     </p>
-          <p className="textoPadrao">
-            -Home
+          </a>
+          <a href="#cardapio">
+            <p className="textoPadrao">
+              -Cardápio
                     </p>
-          <p className="textoPadrao">
-            -Cardápio
+          </a>
+          <a href="#">
+            <p className="textoPadrao">
+              -Sobre Nós
                     </p>
-          <p className="textoPadrao">
-            -Sobre Nós
+          </a>
+          <a href="#footerBar">
+            <p className="textoPadrao">
+              -Contato
                     </p>
-          <p className="textoPadrao">
-            -Contato
-                    </p>
+          </a>
 
 
 

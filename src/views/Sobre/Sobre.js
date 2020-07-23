@@ -85,59 +85,8 @@ return (
 
     <hr></hr>
 
-    <div class = "titulotrsite">
-
-      <h1>A melhor parte</h1>
-
-    </div>
-
-    <Carousel autoplay>
-
-    <div class="imagem">
-
-        <img src="https://img.stpu.com.br/?img=https://s3.amazonaws.com/pu-mgr/default/a0R0f000010ZDNXEA4/5c001711e4b00010cfa42363.jpg&w=710&h=462
-" width="660" height="350"></img>
-
-     </div>
-
-     <div>
-
-        <img src="https://media-cdn.tripadvisor.com/media/photo-p/14/fd/54/11/photo0jpg.jpg" width="660" height="350"></img>
-
-     </div>
-
-     <div>
-
-        <img src="https://media-cdn.tripadvisor.com/media/photo-s/0e/6e/04/71/canadian-bacon-pizza.jpg
-
-" width="660" height="350"></img>
-
-     </div>
-
-     <div>
-
-        <img src="https://i.ytimg.com/vi/qmoCVX19W_o/maxresdefault.jpg
-
-" width="660" height="350"></img>
-
-     </div>
-        
-    </Carousel>
-
-    <div class = "texto">
-
-     <p> as nossas maravilhosas pizzas de sabores inimaginaveis, desde quando começamos a fazer pizzas nós sempre ivestimos na criação e aperfeiçoação de sabores, numca estamos satisfeitos com oque temos e com isso sempre buscamos aprimorar à perfeição, porque não experimentar de uma das deliciosas pizzas que temos?</p>
-
-    </div>
-
     
-
-    <div class = "texto">
-
-   <p> para poder desfrutar desse prazer consulte nosso cardápio, logo abaixo e sinta o melhor sabor que ja esperimentastes em sua vida </p>
-
-    </div>
-
+    
 </Content>
 
 );

@@ -5,7 +5,6 @@ import Grid from '@material-ui/core/Grid';
 //
 
 import SobreCard from './SobreCard';
-import Background from './imagens/pizza-de-pepperoni-saboroso-em-um-fundo-concreto-preto_79782-102.jpg'
 import _ from './background.css';
 
 
@@ -22,7 +21,7 @@ const Sobre = () => {
                     <div style={cardWrapperStyle}>
                         <SobreCard
                             src={require('./imagens/14680889_905351222933419_6814559744953235941_o.jpg')}
-                            nome='David Junior'
+                            nome='DAVID JUNIOR'
                         />
                     </div>
                 </Grid>
@@ -30,7 +29,7 @@ const Sobre = () => {
                     <div style={cardWrapperStyle}>
                         <SobreCard
                             src={require('./imagens/62258427_873262713072212_3061584423825702912_n.jpg')}
-                            nome='Leonardo Higuti'
+                            nome='LEONARDO HIGUTI'
                         />
                     </div>
                 </Grid>
@@ -38,7 +37,7 @@ const Sobre = () => {
                     <div style={cardWrapperStyle}>
                         <SobreCard 
                             src={require('./imagens/87400686_2786920978088941_8822690998757883904_n.jpg')}
-                            nome='Guilherme de Aguiar'
+                            nome='GUILHERME DE AGUIAR'
                         />
                     </div>
                 </Grid>
@@ -46,7 +45,7 @@ const Sobre = () => {
                     <div style={cardWrapperStyle}>
                         <SobreCard 
                             src={require('./imagens/pp.jpeg')}
-                            nome='Gabriel Caetano'
+                            nome='GABRIEL CAETANO'
                         />
                     </div>
                 </Grid>
@@ -54,7 +53,7 @@ const Sobre = () => {
                     <div style={cardWrapperStyle}>
                         <SobreCard 
                             src={require('./imagens/a798d50e-15e2-48f2-bc09-9ae0bb38a1a9.jpeg')}
-                            nome='Nicolas Matias'
+                            nome='NICOLAS MATIAS'
                         />
                     </div>
                 </Grid>
@@ -62,20 +61,13 @@ const Sobre = () => {
                     <div style={cardWrapperStyle}>
                         <SobreCard 
                             src={require('./imagens/66854325_2502039146514334_6834003119303557120_n.jpg')}
-                            nome='Guilherme Molina'
+                            nome='GUILHERME MOLINA'
                         />
                     </div>
                 </Grid>
             </Grid>
         </div>
     )
-}
-
-const backgroundStyle = {
-    backgroundImage: "url(" + Background + ")",
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover',
-    background: 'linear-gradient(to right bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.2))'
 }
 
 const titleContainerStyle = {

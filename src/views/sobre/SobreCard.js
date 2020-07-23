@@ -4,6 +4,8 @@ import React from 'react';
 import Card from '@material-ui/core/Card';
 //
 
+import _ from './paragraph.css';
+
 const SobreCard = props => {
 
     const { src, nome } = props;
@@ -14,7 +16,7 @@ const SobreCard = props => {
                 <img style={imgStyle} src={src} />
             </div>
             <div style={{height: '50%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                <p style={paragraphStyle}>{nome}</p>
+                <p className='paragraph'>{nome}</p>
             </div>
         </Card>
     )
@@ -38,14 +40,6 @@ const imgStyle = {
     height: '85%',
     width: '50%',
     borderRadius: '50%'
-}
-
-const paragraphStyle = {
-    margin: '0',
-    fontWeight: 'bold',
-    letterSpacing: '0.2em',
-    fontSize: '20px',
-    fontStyle: 'roboto'
 }
 
 export default SobreCard;

@@ -75,12 +75,16 @@
 
 .menu__link:hover {
     color: rgb(255, 61, 61);
+    border-bottom: 4px solid rgb(255, 61, 61);
+    font-weight: 700;
 }
 
 .menu__link--active {
+    /*
     color: rgb(255, 61, 61);
     border-bottom: 4px solid rgb(255, 61, 61);
     font-weight: 700;
+    */
 }
 
 .menu__logo {

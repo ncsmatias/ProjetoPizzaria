@@ -1,0 +1,5 @@
+.background {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./imagens/pizza-de-pepperoni-saboroso-em-um-fundo-concreto-preto_79782-102.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

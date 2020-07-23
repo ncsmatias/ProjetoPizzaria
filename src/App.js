@@ -5,6 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 import GlobalStyle from './styles';
 import Principal from './views/Principal';
 import Header from  './views/header/header';
+import Sobre from './views/sobre/Sobre';
 
 function App() {
   return (
@@ -12,10 +13,9 @@ function App() {
       <Header />
       <GlobalStyle />
       <Principal />
-
+      <Sobre />
     </BrowserRouter>
   );
-
 }
 
 export default App;

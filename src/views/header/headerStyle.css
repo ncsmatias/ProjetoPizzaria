@@ -12,6 +12,9 @@
     */
     width: 100%;
     margin-bottom: 20px;
+    padding-bottom: 5px;
+    position: fixed;
+    top: 0px;
 }
 
 .center {
@@ -46,7 +49,7 @@
     padding: 0;
     height: 100%;
     margin: 0;
-    margin-right: 40px;
+    margin-right: 20px;
 }
 
 .menu__list-item {
@@ -73,12 +76,16 @@
 
 .menu__link:hover {
     color: rgb(255, 61, 61);
+    border-bottom: 4px solid rgb(255, 61, 61);
+    font-weight: 700;
 }
 
 .menu__link--active {
+    /*
     color: rgb(255, 61, 61);
     border-bottom: 4px solid rgb(255, 61, 61);
     font-weight: 700;
+    */
 }
 
 .menu__logo {

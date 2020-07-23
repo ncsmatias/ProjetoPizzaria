@@ -6,6 +6,9 @@ import GlobalStyle from './styles';
 import Principal from './views/Principal';
 import Header from  './views/header/header';
 import Sobre from './views/sobre/Sobre';
+import Footer from './views/footer/Footer';
+import Contato from './views/contato/contato';
+import Cardapio from './views/cardapio/cardapio';
 
 function App() {
   return (
@@ -13,7 +16,12 @@ function App() {
       <Header />
       <GlobalStyle />
       <Principal />
+      <Cardapio />
       <Sobre />
+      <Contato />
+      <Footer />
+
+
     </BrowserRouter>
   );
 }

@@ -12,8 +12,8 @@ import { Divider } from 'antd';
 export default function Inicio() {
   return (
     <Content>
-      <Carousel>
-        <div className="itens">
+      <Carousel autoplay>
+        <div className="itens" id="cardapio">
           <img className="imagemPizza" src={require('./imagens/canadian-bacon-pizza.jpg')} />
           <div className="textoCarp">
             <h1 className="tituloCardapio">Canadian Bacon</h1>

@@ -16,7 +16,7 @@ function App() {
                 <ul className="menu__list">
                     <li className="menu__list-item"><a className="menu__link" href="#">Home</a></li>
                     <li className="menu__list-item"><a className="menu__link" href="#">Sobre</a></li>
-                    <li className="menu__list-item"><a className="menu__link" href="#">Cardápio</a></li>
+                    <li className="menu__list-item"><a className="menu__link" href="#cardapio">Cardápio</a></li>
                     <li className="menu__list-item"><a className="menu__link" href="#footerBar">Local</a></li>
                     <li className="menu__list-item"><a className="menu__link" href="#footerBar">Contato</a></li>
                 </ul>

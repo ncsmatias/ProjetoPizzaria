@@ -14,7 +14,7 @@ export default function Inicio() {
         </div>
         <div>
           <h3>3</h3>
-        </div>
+        </div> 
         <div>
           <h3>4</h3>
         </div>
